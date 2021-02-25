@@ -20,7 +20,7 @@ void displayTime(TwelveHourClock& clock12, TwentyFourHourClock& clock24) { // & 
     cout << " ";
 
     cout << "        ";
-    if(clock24.hour < 10) cout << "0"; cout << clock24.hour + 1 << ":";
+    if(clock24.hour < 9) cout << "0"; cout << clock24.hour + 1 << ":";
     if(clock24.minute < 10) cout << "0"; cout << clock24.minute << ":";
     if(clock24.second < 10) cout << "0"; cout << clock24.second << "\n";
     
